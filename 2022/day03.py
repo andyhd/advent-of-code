@@ -14,7 +14,7 @@ puzzle input), but they need your help finding the errors. Every item type is
 identified by a single lowercase or uppercase letter (that is, a and A refer to
 different types of items).
 """
-rucksacks = open("day3-input.txt").read().strip().splitlines()
+rucksacks = open("day03-input.txt").read().strip().splitlines()
 
 
 def compartments(items):

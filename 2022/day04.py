@@ -101,7 +101,7 @@ def fully_overlapping(ranges):
     return set(a).issubset(b) or set(b).issubset(a)
 
 
-assignments = open("day4-input.txt").read().strip().splitlines()
+assignments = open("day04-input.txt").read().strip().splitlines()
 
 
 def part1_answer():

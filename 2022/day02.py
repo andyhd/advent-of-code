@@ -84,7 +84,7 @@ def score(round):
     return (1 + your_shape) + outcomes[opp][your_shape]
 
 
-rounds = open("day2-input.txt").read().strip().splitlines()
+rounds = open("day02-input.txt").read().strip().splitlines()
 
 
 def part1_answer():

@@ -140,7 +140,7 @@ def top_crates(stacks):
     return "".join([stack[0] for stack in stacks])
 
 
-day5_input = open("day5-input.txt").read()
+day5_input = open("day05-input.txt").read()
 drawing, procedure = day5_input.strip("\n").split("\n\n")
 procedure = procedure.splitlines()
 

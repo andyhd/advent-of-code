@@ -111,7 +111,7 @@ def sorted_calorie_totals(food_items_by_elf):
     yield from reversed(sorted(map(sum, food_items_by_elf)))
 
 
-food_items = open("day1-input.txt").read().strip().splitlines()
+food_items = open("day01-input.txt").read().strip().splitlines()
 
 
 def part1_answer():
